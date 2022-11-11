@@ -7,4 +7,3 @@ API Documentation: https://fiscaldata.treasury.gov/api-documentation/
 You can install it using the following **.NET CLI** command:
 
     dotnet add package MikaelDui.UnitedStates.Treasury.FiscalData --version *
--->
