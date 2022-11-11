@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0;net7.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>UnitedStates.Treasury</RootNamespace>
+    <PackageId>MikaelDui.UnitedStates.Treasury.FiscalData</PackageId>
+    <Authors>Mikael Dúi Bolinder</Authors>
+    <Product>MikaelDui.UnitedStates.Treasury.FiscalData</Product>
+    <Description>This project is really awesome!</Description>
+    <PackageProjectUrl>https://github.com/mikaeldui/united-states-treasury-fiscal-data-dotnet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>UnitedStates.Treasury.FiscalData.png</PackageIcon>
+    <RepositoryUrl>https://github.com/mikaeldui/united-states-treasury-fiscal-data-dotnet</RepositoryUrl>
+    <PackageTags></PackageTags>
+    <PackageLicenseExpression>Unlicense</PackageLicenseExpression>
+    <AssemblyName>MikaelDui.UnitedStates.Treasury.FiscalData</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\UnitedStates.Treasury.FiscalData.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MikaelDui.Extensions" Version="*" />
+  </ItemGroup>
+
+</Project>
